@@ -100,3 +100,7 @@ Frontend will start at - http://localhost:5173
 - Ask casual questions like **"Tell me a joke"**
 - Have simple conversations with the AI
 - Observe how AI responses appear with typing animation
+
+## 🌐 Live Demo
+
+Link - https://mini-chat-gpt-fawn.vercel.app/
