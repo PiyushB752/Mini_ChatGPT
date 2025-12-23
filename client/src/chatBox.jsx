@@ -62,6 +62,12 @@ function ChatBox() {
   return(
     <div className="chat-container">
       <div className="chat-window">
+        {messages.length===0 && (
+          <div className="msg ai">
+            Hi! I'm Mini ChatGPT. Ask me anything to get started.
+          </div>
+        )}
+
         {messages.map((m,i)=>(
           <div key={i} className={`msg ${m.sender}`}>
             {m.text}
