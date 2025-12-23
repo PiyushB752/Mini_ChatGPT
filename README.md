@@ -51,19 +51,6 @@ Mini ChatGPT/
 └── README.md
 ```
 
-## 🔑 Environment Variables
-
-### Frontend (`client/.env`)
-```
-VITE_API_URL = http://localhost:5000
-```
-
-### Backend (`server/.env`)
-```
-PORT = 5000
-GOOGLE_API_KEY = your_google_gemini_api_key
-```
-
 ## ⚙️ Installation & Setup
 
 ### 1️⃣ Clone the Repository
