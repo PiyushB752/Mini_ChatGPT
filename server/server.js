@@ -11,6 +11,10 @@ app.use(express.json());
 
 app.use("/api/chat",chatRoutes);
 
+app.get("/",(req,res) => {
+  res.send("Mini ChatGPT is running successfully...");
+});
+
 app.listen(process.env.PORT, () =>
   console.log(`Mini ChatGPT running on port ${process.env.PORT}`)
 );
